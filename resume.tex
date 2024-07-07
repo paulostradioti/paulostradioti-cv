@@ -1,0 +1,174 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+    \usepackage[left=0.8in,right=0.8in,bottom=0.8in,top=0.8in]{geometry}
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Paulo Ricardo Stradioti}}\\
+	São Paulo, Brazil $\cdot$ paulo@paulo.eti.br $\cdot$ +55 (11) 96082-2400 $\cdot$ https://www.paulo.bio\\
+\end{center}
+
+%==== Education ====%
+\header{Education}
+\textbf{USP - Universidade de São Paulo}\hfill Piracicaba, São Paulo, Brazil\\
+MBA in Software Engineering \hfill Oct 2023 - Aug 2025\\
+\vspace{2mm}
+\textbf{UFABC - Universidade Federal do ABC}\hfill Santo André, São Paulo, Brazil\\
+Specialization in Technology and Information Systems \hfill Mar 2023 - Mar 2025\\
+\vspace{2mm}
+\textbf{UFMG - Universidade Federal de Minas Gerais}\hfill Belo Horizonte, Minas Gerais, Brazil\\
+Extension in Modern Software Engineer \hfill May 2023 - Aug 2023\\
+\vspace{2mm}
+\textbf{UFSCar - Universidade Federal de São Carlos}\hfill São Carlos, São Paulo, Brazil\\
+Bachelor of Science in Computer Science \hfill Mar 2007 - Jul 2012\\
+\vspace{2mm}
+
+%==== Experience ====%
+\header{Work Experience}
+\vspace{1mm}
+
+\textbf{IBM} \hfill Remote/Work from Home\\
+\textit{Senior Software Engineer} \hfill Feb 2022 - Jul 2024\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Development of Backend APIs for IBM\textquotesingle{}s Robotic Process Automation platform and contribution to the construction of the team\textquotesingle{}s CI/CD pipelines, adhering to state-of-the-art requirements for code security and quality.
+\end{itemize}
+\textbf{Ada Tech (formerly Let\textquotesingle{}s Code)} \hfill Remote/Work from Home\\
+\textit{Teacher} \hfill Jul 2021 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Teaching Software Engineering, Programming, DBMS, Software Architecture, Automated Testing, and Agile methodologies to the next generation of developers.
+\end{itemize}
+\textbf{Neon Pagamentos} \hfill Remote/Work from Home\\
+\textit{Senior Software Engineer} \hfill Sep 2020 - Jan 2022\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Building APIs in ASP.NET Core, FICO DMPS,
+\end{itemize}
+\textbf{RDI SOFTWARE} \hfill Remote/Work from Home\\
+\textit{Senior Software Engineer} \hfill Dec 2018 - Sep 2020\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Building APIs in ASP.NET Core
+\end{itemize}
+\textbf{CAPCO} \hfill Barueri, São Paulo, Brazil\\
+\textit{Consultant} \hfill Jul 2018 - Nov 2018\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Building APIs in ASP.NET Core for one of the largest Brazilian retail banks\textquotesingle{} Home Broker.
+\end{itemize}
+\textbf{GFT Brasil (GFT Technologies)} \hfill New York, NY, USA\\
+\textit{Advent Geneva Consultant} \hfill Jan 2017 - Jun 2018\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Advent Geneva installation, upgrades, integrations and custom reports development. (RSL and RDL)
+\end{itemize}
+\textbf{GFT Brasil (GFT Technologies)} \hfill Barueri, São Paulo, Brazil\\
+\textit{Software Engineer}\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Develop, maintain and customize applications for our clients using ASP.NET, C\#, SQL Server
+\end{itemize}
+\textbf{Advus Corporation} \hfill São Paulo, São Paulo, Brazil\\
+\textit{IT Project Manager} \hfill Oct 2014 - Apr 2015\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Follow up the execution of the Company\textquotesingle{}s projects, keeping the scope and monitoring the costs.
+	\item Participating in cadencing meetings with clients, as well as interfacing with them to deal with scope and deadline changes.
+\end{itemize}
+\textbf{Advus Corporation} \hfill São Paulo, São Paulo, Brazil\\
+\textit{IT Consultant} \hfill Sep 2013 - Sep 2014\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Development and maintenance of applications for the Consulting Clients. The main technologies used were ASP.NET, C\#, SQL Server, SharePoint, HTML and JavaScript.
+\end{itemize}
+\textbf{Unimed do Brasil} \hfill São Paulo, São Paulo, Brazil\\
+\textit{Junior System Analyst} \hfill Jun 2012 - Aug 2013\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Development and maintenance of the company\textquotesingle{}s applications, specially the medical diagnosis and therapy authorizing system (aka Nefron).
+\end{itemize}
+\textbf{Credit Suisse} \hfill São Paulo, São Paulo, Brazil\\
+\textit{Inter} \hfill Jan 2011 - May 2012\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Development and maintenance of systems used by various business bank areas, such as HR, Accounting, Legal \& Compliance, Operations, etc. The main technologies used were B6, .NET (Windows Forms) and C\#, SQL Server, COM+.
+\end{itemize}
+
+
+
+
+
+
+
+\ 
+\end{document}

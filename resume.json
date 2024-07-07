@@ -1,0 +1,201 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "Work Experience",
+    "skills": "",
+    "projects": "",
+    "awards": "",
+    "education": "Education"
+  },
+  "basics": {
+    "name": "Paulo Ricardo Stradioti",
+    "email": "paulo@paulo.eti.br",
+    "phone": "+55 (11) 96082-2400",
+    "website": "https://www.paulo.bio",
+    "location": {
+      "address": "São Paulo, Brazil"
+    }
+  },
+  "education": [
+    {
+      "institution": "USP - Universidade de São Paulo",
+      "location": "Piracicaba, São Paulo, Brazil",
+      "area": "Software Engineering",
+      "studyType": "MBA in",
+      "startDate": "Oct 2023",
+      "endDate": "Aug 2025"
+    },
+    {
+      "institution": "UFABC - Universidade Federal do ABC",
+      "location": "Santo André, São Paulo, Brazil",
+      "area": "Technology and Information Systems",
+      "startDate": "Mar 2023",
+      "endDate": "Mar 2025",
+      "studyType": "Specialization in"
+    },
+    {
+      "institution": "UFMG - Universidade Federal de Minas Gerais",
+      "location": "Belo Horizonte, Minas Gerais, Brazil",
+      "studyType": "Extension in",
+      "area": "Modern Software Engineer",
+      "startDate": "May 2023",
+      "endDate": "Aug 2023"
+    },
+    {
+      "institution": "UFSCar - Universidade Federal de São Carlos",
+      "location": "São Carlos, São Paulo, Brazil",
+      "studyType": "Bachelor of Science in",
+      "area": "Computer Science",
+      "startDate": "Mar 2007",
+      "endDate": "Jul 2012"
+    }
+  ],
+  "work": [
+    {
+      "location": "Remote/Work from Home",
+      "position": "Senior Software Engineer",
+      "website": "",
+      "highlights": [
+        "Development of Backend APIs for IBM's Robotic Process Automation platform and contribution to the construction of the team's CI/CD pipelines, adhering to state-of-the-art requirements for code security and quality."
+      ],
+      "company": "IBM",
+      "startDate": "Feb 2022",
+      "endDate": "Jul 2024"
+    },
+    {
+      "highlights": [
+        "Teaching Software Engineering, Programming, DBMS, Software Architecture, Automated Testing, and Agile methodologies to the next generation of developers."
+      ],
+      "company": "Ada Tech (formerly Let's Code)",
+      "position": "Teacher",
+      "location": "Remote/Work from Home",
+      "startDate": "Jul 2021",
+      "endDate": "Present"
+    },
+    {
+      "highlights": [
+        "Building APIs in ASP.NET Core, FICO DMPS, "
+      ],
+      "company": "Neon Pagamentos",
+      "position": "Senior Software Engineer",
+      "location": "Remote/Work from Home",
+      "startDate": "Sep 2020",
+      "endDate": "Jan 2022"
+    },
+    {
+      "highlights": [
+        "Building APIs in ASP.NET Core"
+      ],
+      "company": " RDI SOFTWARE",
+      "position": " Senior Software Engineer",
+      "location": "Remote/Work from Home",
+      "startDate": "Dec 2018",
+      "endDate": "Sep 2020"
+    },
+    {
+      "highlights": [
+        "Building APIs in ASP.NET Core for one of the largest Brazilian retail banks' Home Broker."
+      ],
+      "company": "CAPCO",
+      "position": "Consultant",
+      "location": "Barueri, São Paulo, Brazil",
+      "startDate": " Jul 2018",
+      "endDate": "Nov 2018"
+    },
+    {
+      "highlights": [
+        "Advent Geneva installation, upgrades, integrations and custom reports development. (RSL and RDL)"
+      ],
+      "company": "GFT Brasil (GFT Technologies)",
+      "position": "Advent Geneva Consultant",
+      "location": "New York, NY, USA",
+      "startDate": "Jan 2017",
+      "endDate": "Jun 2018"
+    },
+    {
+      "highlights": [
+        "Develop, maintain and customize applications for our clients using ASP.NET, C#, SQL Server"
+      ],
+      "company": "GFT Brasil (GFT Technologies)",
+      "position": "Software Engineer",
+      "location": "Barueri, São Paulo, Brazil"
+    },
+    {
+      "highlights": [
+        "Follow up the execution of the Company's projects, keeping the scope and monitoring the costs. ",
+        "Participating in cadencing meetings with clients, as well as interfacing with them to deal with scope and deadline changes."
+      ],
+      "company": " Advus Corporation",
+      "position": " IT Project Manager",
+      "location": "São Paulo, São Paulo, Brazil",
+      "startDate": " Oct 2014",
+      "endDate": "Apr 2015"
+    },
+    {
+      "highlights": [
+        "Development and maintenance of applications for the Consulting Clients. The main technologies used were ASP.NET, C#, SQL Server, SharePoint, HTML and JavaScript."
+      ],
+      "company": " Advus Corporation",
+      "position": "IT Consultant",
+      "location": "São Paulo, São Paulo, Brazil",
+      "startDate": " Sep 2013",
+      "endDate": "Sep 2014 "
+    },
+    {
+      "highlights": [
+        "Development and maintenance of the company's applications, specially the medical diagnosis and therapy authorizing system (aka Nefron)."
+      ],
+      "company": "Unimed do Brasil",
+      "position": " Junior System Analyst",
+      "startDate": " Jun 2012",
+      "endDate": "Aug 2013",
+      "location": "São Paulo, São Paulo, Brazil"
+    },
+    {
+      "highlights": [
+        "Development and maintenance of systems used by various business bank areas, such as HR, Accounting, Legal & Compliance, Operations, etc. The main technologies used were B6, .NET (Windows Forms) and C#, SQL Server, COM+."
+      ],
+      "company": "Credit Suisse",
+      "position": "Inter",
+      "location": "São Paulo, São Paulo, Brazil",
+      "startDate": "Jan 2011",
+      "endDate": "May 2012"
+    }
+  ],
+  "skills": [
+    {
+      "name": "",
+      "level": "",
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}

@@ -27,3 +27,17 @@ The class features the following commands:
 ## Build Instructions
 - Make sure `lualatex` (see https://www.luatex.org/download.html) is installed on your machine and is available in the terminal or a command line client of your choice.
 - In the terminal or a command line client of your choice, go to the folder containing `McDowell_CV_Template.tex` and `mcdowellcv.cls`, and run the following command: `lualatex McDowell_CV_Template.tex`.
+
+
+# Resumake Template 1
+> LaTeX code generated at [resumake.io](https://resumake.io)
+
+## Usage
+To generate a PDF from this LaTeX code, navigate to this folder in a terminal and run:
+
+    pdflatex resume.tex
+
+## Requirements
+You will need to have `pdflatex` installed on your machine.
+
+Alternatively, you can use a site like [ShareLaTeX](https://sharelatex.com) to build and edit your LaTeX instead.
