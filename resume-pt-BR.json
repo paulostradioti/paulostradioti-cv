@@ -1,0 +1,221 @@
+{
+  "selectedTemplate": 2,
+  "headings": {
+    "work": "Experiência",
+    "skills": "Idiomas",
+    "projects": "",
+    "awards": "",
+    "education": "Formação Acadêmica"
+  },
+  "basics": {
+    "name": "Paulo Ricardo Stradioti",
+    "email": "paulo@paulo.eti.br",
+    "phone": "+55 (11) 96082-2400",
+    "website": "https://www.paulo.bio",
+    "location": {
+      "address": "Novo Horizonte, SP, Brasil"
+    }
+  },
+  "education": [
+    {
+      "institution": "USP - Universidade de São Paulo",
+      "location": "Piracicaba, São Paulo, Brazil",
+      "area": "Engenharia de Software",
+      "studyType": "MBA",
+      "startDate": "Outubro 2023",
+      "endDate": "Agosto 2025"
+    },
+    {
+      "institution": "UFABC - Universidade Federal do ABC",
+      "location": "Santo André, São Paulo, Brazil",
+      "area": "Tecnologias e Sistemas de Informação",
+      "startDate": "Março 2023",
+      "endDate": "Março 2025",
+      "studyType": "Especialização"
+    },
+    {
+      "institution": "UFMG - Universidade Federal de Minas Gerais",
+      "location": "Belo Horizonte, Minas Gerais, Brazil",
+      "studyType": "Extensão",
+      "area": "Engenharia de Software Moderna",
+      "startDate": "Maio 2023",
+      "endDate": "Agosto 2023"
+    },
+    {
+      "institution": "UFSCar - Universidade Federal de São Carlos",
+      "location": "São Carlos, São Paulo, Brazil",
+      "studyType": "Bacharelado",
+      "area": "Ciência da Computação",
+      "startDate": "Março 2007",
+      "endDate": "Julho 2012"
+    }
+  ],
+  "work": [
+    {
+      "location": "Remoto",
+      "position": "Engenheiro de Software Sênior",
+      "website": "",
+      "highlights": [
+        "Desenvolvimento de APIs Backend para a plataforma de Automação de Processos Robóticos da IBM e contribuição para a construção dos pipelines CI/CD da equipe, aderindo aos requisitos de ponta para segurança e qualidade do código."
+      ],
+      "company": "IBM",
+      "startDate": "Fev 2022",
+      "endDate": "Jul 2024"
+    },
+    {
+      "highlights": [
+        "Ensino de Engenharia de Software, Programação, SGBD, Arquitetura de Software, Testes Automatizados e metodologias Ágeis para a próxima geração de desenvolvedores."
+      ],
+      "company": "Ada Tech (anteriormente Let's Code)",
+      "position": "Professor",
+      "location": "Remoto",
+      "startDate": "Jul 2021",
+      "endDate": "Presente"
+    },
+    {
+      "highlights": [
+        "Construção de APIs em ASP.NET Core, FICO DMPS."
+      ],
+      "company": "Neon Pagamentos",
+      "position": "Engenheiro de Software Sênior",
+      "location": "Remoto",
+      "startDate": "Set 2020",
+      "endDate": "Jan 2022"
+    },
+    {
+      "highlights": [
+        "Construção de APIs em ASP.NET Core."
+      ],
+      "company": "RDI SOFTWARE",
+      "position": "Engenheiro de Software Sênior",
+      "location": "Remoto",
+      "startDate": "Dez 2018",
+      "endDate": "Set 2020"
+    },
+    {
+      "highlights": [
+        "Construção de APIs em ASP.NET Core para o Home Broker de um dos maiores bancos de varejo do Brasil."
+      ],
+      "company": "CAPCO",
+      "position": "Consultor",
+      "location": "Barueri, São Paulo, Brasil",
+      "startDate": "Jul 2018",
+      "endDate": "Nov 2018"
+    },
+    {
+      "highlights": [
+        "Instalação, atualizações, integrações e desenvolvimento de relatórios personalizados do Advent Geneva. (RSL e RDL)"
+      ],
+      "company": "GFT Brasil (GFT Technologies)",
+      "position": "Consultor de Advent Geneva",
+      "location": "Nova York, NY, EUA",
+      "startDate": "Jan 2017",
+      "endDate": "Jun 2018"
+    },
+    {
+      "highlights": [
+        "Desenvolver, manter e customizar aplicações para nossos clientes utilizando ASP.NET, C#, SQL Server."
+      ],
+      "company": "GFT Brasil (GFT Technologies)",
+      "position": "Engenheiro de Software",
+      "location": "Barueri, São Paulo, Brasil",
+      "startDate": "Abr 2015",
+      "endDate": "Dez 2017"
+    },
+    {
+      "highlights": [
+        "Acompanhar a execução dos projetos da Empresa, mantendo o escopo e monitorando os custos.",
+        "Participação em reuniões de cadência com clientes, assim como interface com eles para lidar com mudanças de escopo e prazos."
+      ],
+      "company": "Advus Corporation",
+      "position": "Gerente de Projetos de TI",
+      "location": "São Paulo, São Paulo, Brasil",
+      "startDate": "Out 2014",
+      "endDate": "Abr 2015"
+    },
+    {
+      "highlights": [
+        "Desenvolvimento e manutenção de aplicações para os Clientes de Consultoria. As principais tecnologias utilizadas foram ASP.NET, C#, SQL Server, SharePoint, HTML e JavaScript."
+      ],
+      "company": "Advus Corporation",
+      "position": "Consultor de TI",
+      "location": "São Paulo, São Paulo, Brasil",
+      "startDate": "Set 2013",
+      "endDate": "Set 2014"
+    },
+    {
+      "highlights": [
+        "Desenvolvimento e manutenção das aplicações da empresa, especialmente do sistema de autorização de diagnósticos e terapias médicas (conhecido como Nefron)."
+      ],
+      "company": "Unimed do Brasil",
+      "position": "Analista de Sistemas Júnior",
+      "startDate": "Jun 2012",
+      "endDate": "Ago 2013",
+      "location": "São Paulo, São Paulo, Brasil"
+    },
+    {
+      "highlights": [
+        "Desenvolvimento e manutenção de sistemas utilizados por diversas áreas do banco comercial, como RH, Contabilidade, Jurídico & Compliance, Operações, etc. As principais tecnologias utilizadas foram B6, .NET (Windows Forms), C#, SQL Server, COM+."
+      ],
+      "company": "Credit Suisse",
+      "position": "Estagiário",
+      "location": "São Paulo, São Paulo, Brasil",
+      "startDate": "Jan 2011",
+      "endDate": "Mai 2012"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Nativo"
+      ],
+      "name": "Português"
+    },
+    {
+      "keywords": [
+        "Avançado"
+      ],
+      "name": "Inglês"
+    },
+    {
+      "keywords": [
+        "Intermediário"
+      ],
+      "name": "Espanhol"
+    },
+    {
+      "keywords": [
+        "Básico"
+      ],
+      "name": "Francês"
+    }
+  ],
+  "projects": [
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
